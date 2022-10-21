@@ -1,0 +1,9 @@
+<!-- <router-outlet></router-outlet> -->
+
+<h1>Hi! Let me welcome you warmly!</h1>
+<div class="mybox">
+  <input type="text" placeholder="Tell me your name" [(ngModel)]="name">
+  <p *ngIf="name" class="message">
+    Hello {{name}}!
+  </p>
+</div>
